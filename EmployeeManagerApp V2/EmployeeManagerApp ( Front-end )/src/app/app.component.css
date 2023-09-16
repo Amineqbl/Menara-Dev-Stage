@@ -1,0 +1,140 @@
+/* Custom styles for the navigation bar */
+.custom-navbar {
+    background-color: #000; /* Black background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; /* Increase padding for better spacing */
+    margin-bottom: 100px; /* Increase margin-bottom for more space */
+}
+
+.custom-navbar-brand {
+    color: #fff; /* White text color for the brand */
+    font-size: 28px; /* Increase font size for better visibility */
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.custom-navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.custom-nav-item {
+    margin-right: 30px; /* Increase spacing between items */
+}
+
+.custom-nav-link {
+    color: #fff; /* White text color for the links */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 20px; /* Increase font size for better readability */
+}
+
+/* Custom styles for the search form */
+.custom-form {
+    display: flex;
+    align-items: center;
+    max-width: 300px; /* Increase max-width for a wider search box */
+}
+
+.custom-form-group {
+    display: flex;
+    align-items: center;
+}
+
+.custom-form-control {
+    padding: 12px; /* Increase padding for better input appearance */
+    border: 1px solid #ccc; /* Add a border as needed */
+    border-radius: 6px; /* Add border radius as needed */
+    margin-right: 10px; /* Adjust spacing between input and button */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.custom-button {
+    background-color: #fff; /* White background for the button */
+    color: #000; /* Black text color for the button */
+    border: none;
+    padding: 12px 24px; /* Increase padding for better button appearance */
+    border-radius: 6px; /* Add border radius as needed */
+    cursor: pointer;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.searchBox {
+    display: flex;
+    max-width: 300px; /* Increase max-width for a wider search box */
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; /* Increase gap for better spacing */
+    background: #2f3640;
+    border-radius: 400px;
+    padding: 1px; /* Adjust padding for better appearance */
+    position: relative;
+  }
+  
+  .searchButton {
+    color: white;
+    position: absolute;
+    right: 10px; /* Adjust position for better alignment */
+    width: 40px; /* Decrease width for better button appearance */
+    height: 40px; /* Decrease height for better button appearance */
+    border-radius: 50%;
+    background: var(--gradient-2, linear-gradient(90deg, #2AF598 0%, #009EFD 100%));
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /* Hover effect for the button */
+  .searchButton:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px;
+    transform: translateY(-3px);
+  }
+  /* Button pressing effect */
+  .searchButton:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 16px; /* Adjust font size for better readability */
+    padding: 12px 24px; /* Increase padding for better input appearance */
+  }
+  .buttonx {
+    width: 150px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #2f3640;
+    font-size: 0.9em;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+  .buttonx:hover {
+    background: white;
+    color: black;
+    font-size: em;
+  }
+
+
+  .card {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center bottom;
+    border-radius: 50px; /* Adjust the border radius to your preference */
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}

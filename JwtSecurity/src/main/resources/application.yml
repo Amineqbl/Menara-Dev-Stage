@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jwt
+    username: root
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver  # Updated driver class name
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+      dialect: org.hibernate.dialect.MySQL8Dialect  # Use the correct dialect for MySQL 8
